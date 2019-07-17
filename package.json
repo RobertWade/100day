@@ -2,7 +2,7 @@
   "name": "100daysofcode",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build": "npx workbox generateSW workbox-config.js && gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -13,6 +13,7 @@
     "material-design-icons-iconfont": "^5.0.1",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vuetify": "^1.5.16"
+    "vuetify": "^1.5.16",
+    "workbox-cli": "^4.3.1"
   }
 }
