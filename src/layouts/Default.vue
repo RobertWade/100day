@@ -130,15 +130,15 @@ input[type="text"] {
 }
 
 .primary-button {
-  padding: 20px;
+  padding: 30px!important;
   background: linear-gradient(to right, #96eee6, #0597d4);
   background:-webkit-linear-gradient(to right, #96eee6, #0597d4);
-  border-radius: 10px;
+  border-radius: 10px!important;
   transition: all 0.2s linear;
-  color: white;
+  color: white!important;
   width: 100%;
-  -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
+  -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
   box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
 }
 
