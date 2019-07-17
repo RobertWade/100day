@@ -130,17 +130,17 @@ input[type="text"] {
 }
 
 .primary-button {
-  padding: 30px!important;
+  height:60px!important;
   background: linear-gradient(to right, #96eee6, #0597d4);
-  background:-webkit-linear-gradient(to right, #96eee6, #0597d4);
-  border-radius: 10px!important;
+  background: -webkit-linear-gradient(to right, #96eee6, #0597d4);
+  border-radius: 10px !important;
   transition: all 0.2s linear;
-  color: white!important;
+  color: white !important;
   width: 100%;
-  -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
-  -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
-  box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
-  margin:0!important;
+  -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12) !important;
+  -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12) !important;
+  box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12) !important;
+  margin: 0 !important;
 }
 
 .primary-button:hover {
