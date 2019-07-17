@@ -115,23 +115,33 @@ h4 {
   font-weight: 300;
 }
 
-h2{
+h2 {
   font-size: 18px;
+}
+
+input[type="text"] {
+  transform: scale(0.75);
+  transform-origin: left top;
+
+  /* remove extra white space */
+  margin-bottom: -10px;
+  margin-right: -33.333333333%;
 }
 
 .primary-button {
   padding: 20px;
-  background: linear-gradient(to right,#96eee6, #0597d4);
+  background: linear-gradient(to right, #96eee6, #0597d4);
+  background:-webkit-linear-gradient(to right, #96eee6, #0597d4);
   border-radius: 10px;
-  transition: all .2s linear;
-  color:white;
-  width:100%;
+  transition: all 0.2s linear;
+  color: white;
+  width: 100%;
   -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
   box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
 }
 
-.primary-button:hover{
+.primary-button:hover {
   -webkit-box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.12);
   box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.12);
