@@ -4,14 +4,12 @@
 
 <script>
 export default {
-  props:['type'],
+  props: ["type"],
   name: "Inputfield",
   data() {
-    return {
-    };
+    return {};
   },
-  methods: {
-  }
+  methods: {}
 };
 </script>
 
@@ -22,8 +20,9 @@ export default {
   -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
   box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
-  border-radius:10px;
-  width:100%;
+  border-radius: 10px;
+  width: 100%;
+  -webkit-appearance: none;
 }
 </style>
 

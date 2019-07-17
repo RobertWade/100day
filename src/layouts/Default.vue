@@ -126,6 +126,7 @@ input[type="text"] {
   /* remove extra white space */
   margin-bottom: -10px;
   margin-right: -33.333333333%;
+  -webkit-appearance: none;
 }
 
 .primary-button {
