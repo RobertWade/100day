@@ -139,7 +139,8 @@ input[type="text"] {
   width: 100%;
   -webkit-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
   -moz-box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
-  box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12);
+  box-shadow: 5px 5px 19px -1px rgba(0, 0, 0, 0.12)!important;
+  margin:0!important;
 }
 
 .primary-button:hover {
